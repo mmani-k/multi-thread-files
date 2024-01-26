@@ -1,4 +1,4 @@
-# Python multi-thread read of local files Demo
+# Python multi-thread read of local files - Demo
 
 This is to simulate a demo of a feature available in AWS s3 to read files in chunks parallelly. Since multi-thread access of the local file handle is not allowed, the file handle had to be created for each thread, which introduces an inefficiency.
 
